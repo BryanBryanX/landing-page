@@ -1,0 +1,207 @@
+.topo{
+background-color: #1F2937;
+}
+body{
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+/* barra */
+header a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    align-items: center;
+
+}
+header {
+    background-color: #1F2937;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+header ul{
+    list-style: none;
+    font-size: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: flex;
+gap: 2px;
+align-items: center;
+padding: 10px;
+}
+/* parte 1 - introdução */
+.web{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   color: white;
+   padding: 30px;
+   
+}
+div img{
+    width: 450px;
+    height: 300px; 
+}
+.inteiro{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.web p{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .botão{
+    display: block;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+} */
+
+.botão {
+  color: white;
+  background-color: #3882f6;
+  padding: 12px 0px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  border-bottom: none;
+  border-style: none;
+}
+.botão a{
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #3882f6;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+/* parte 2 - desenvolvimento*/
+.titulo{
+   display: flex;
+   align-items: end;
+   font-size: 20px;
+   color: #1f2937;
+   font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+.legal{
+    padding: 80px;
+background-color: white;
+    flex-wrap: wrap;
+    gap: 35px;
+    display: flex;
+justify-content: center;
+}
+
+.legal img{
+    border: solid#3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    
+}
+.a1text{
+    display: flex;
+    justify-content: center;
+}
+.a2text{
+    display: flex;
+    justify-content: center;
+}
+.a3text{
+    display: flex;
+    justify-content: center;
+}
+.a4text{
+    display: flex;
+    justify-content: center;
+}
+/* terceira parte */
+.textao{
+   padding: 80px;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+
+}
+.textao p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: #1F2937;
+font-style: italic;
+}
+.textao h4{
+    justify-content: center;
+    color: #1F2937;
+}
+.textao p, h4{
+    display: flex;
+    align-items: center;
+
+}
+/* parte 4 - outro */
+.outro{
+    padding: 70px;
+    background-color: white;
+}
+.repres{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 60px;
+    padding: 30px;
+    justify-content: space-around;
+}
+.repres h1{
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-size: 25px;
+margin: 20px;
+}
+.repres p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: rgb(194, 194, 194);
+    font-size: smaller;
+}
+.but{
+  border-style: none;
+    display: flex;
+   padding: 10px;
+   margin: 30px;
+   border-radius: 10px;
+   border: solid #ffffff;
+   background-color: transparent;
+color: solid #3882f6;
+
+   
+}
+.but a{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0px 30px;
+    background-color: #3882f6;
+}
+/* parte 5 - copyright */
+.copy{
+    background-color: #1F2937;
+    padding: 70px;
+}
+.copy h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
